@@ -1,17 +1,49 @@
 {
-  "posts": [
+  "minicard": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "img":"https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png"
+    },
+    {
+      "id": 2,
+      "img":"https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png"
+    },
+    {
+      "id": 3,
+      "img":"https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192273_bb.png"
+    },
+    {
+      "id": 4,
+      "img":"https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192344_dd.png"
     }
   ],
-  "comments": [
+  "Partnerships": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "GOSTOPS",
+      "sortdesc":"Trek through Himalayan Forests & Waterfalls under Rs 8,000 with goEXPERIENCES by goSTOPS!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1658236943_1200px_har_ki_dun.jpg"
+    },
+    {
+      "id": 2,
+      "title": "SINGAPORE TOURISM BOARD",
+      "sortdesc":"Visit These 7 Chic Bars in Singapore if You’re in the Mood to Live up the Night!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1653562686_275721311_336154091889496_2451172917242741439_n.jpg"
+    },
+    {
+      "id": 3,
+      "title": "MG",
+      "sortdesc":"Unravel the Secrets of Northeast India With Chum and Rohan in ‘Uncharted Trails’",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1657611052_rohan_chum2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "SAUDI TOURISM AUTHORITY",
+      "sortdesc":"A 7-Day Backpacker’s Itinerary for Exploring Saudi in Under Rs 35,000",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1656576649_1653662762_image7.jpg"
     }
+    
+    
   ],
   "profile": {
     "name": "typicode"
