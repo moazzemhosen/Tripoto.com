@@ -14,6 +14,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
+
+    <Flex justifyContent={"space-between"}>
+      <Flex>
+        <Box>
+          <Image
+            bgColor={"black"}
+
     <Flex
       p={4}
       w="100%"
@@ -26,10 +33,31 @@ const Navbar = () => {
       <Flex>
         <Box>
           <Image
+
             src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
             alt=""
           />
         </Box>
+
+        <Box>
+          <Input type="text" />
+        </Box>
+      </Flex>
+
+      <Box>
+        <Flex>
+          <Box>
+            <Menu>
+              <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+                Inspiration
+              </MenuButton>
+              <MenuList>
+                <MenuItem>Download</MenuItem>
+                <MenuItem>Create a Copy</MenuItem>
+                <MenuItem>Mark as Draft</MenuItem>
+                <MenuItem>Delete</MenuItem>
+                <MenuItem>Attend a Workshop</MenuItem>
+
       </Flex>
       <Box>
         <Flex gap="50px" fontWeight={"500"} color="white">
@@ -56,10 +84,30 @@ const Navbar = () => {
                 <MenuItem>Getaways Guide</MenuItem>
                 <MenuItem>Luxury Travel</MenuItem>
                 <MenuItem>Explore More</MenuItem>
+
               </MenuList>
             </Menu>
           </Box>
           <Box>Fourm</Box>
+
+          <Box>
+            {" "}
+            <Menu>
+              <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+                Inspiration
+              </MenuButton>
+              <MenuList>
+                <MenuItem>Download</MenuItem>
+                <MenuItem>Create a Copy</MenuItem>
+                <MenuItem>Mark as Draft</MenuItem>
+                <MenuItem>Delete</MenuItem>
+                <MenuItem>Attend a Workshop</MenuItem>
+              </MenuList>
+            </Menu>
+          </Box>
+          <Box>Publish Trip</Box>
+          <Box>Sign In</Box>
+
 
           <Box>Packages</Box>
           <Menu>
@@ -82,6 +130,7 @@ const Navbar = () => {
               Sign In
             </Button>
           </Box>
+
         </Flex>
       </Box>
     </Flex>
