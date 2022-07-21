@@ -1,19 +1,242 @@
 {
-  "posts": [
+  "minicard": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "img":"https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192273_bb.png"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192344_dd.png"
     }
   ],
-  "comments": [
+  "Partnerships": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "GOSTOPS",
+      "sortdesc": "Trek through Himalayan Forests & Waterfalls under Rs 8,000 with goEXPERIENCES by goSTOPS!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1658236943_1200px_har_ki_dun.jpg"
+    },
+    {
+      "id": 2,
+      "title": "SINGAPORE TOURISM BOARD",
+      "sortdesc": "Visit These 7 Chic Bars in Singapore if You’re in the Mood to Live up the Night!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1653562686_275721311_336154091889496_2451172917242741439_n.jpg"
+    },
+    {
+      "id": 3,
+      "title": "MG",
+      "sortdesc": "Unravel the Secrets of Northeast India With Chum and Rohan in ‘Uncharted Trails’",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1657611052_rohan_chum2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "SAUDI TOURISM AUTHORITY",
+      "sortdesc": "A 7-Day Backpacker’s Itinerary for Exploring Saudi in Under Rs 35,000 data",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1656576649_1653662762_image7.jpg"
+    },
+    {
+      "id": 5,
+      "title": "GOSTOPS",
+      "sortdesc": "Trek the Road Not Taken: 5 Himalayan Treks to Unleash the Adventurer in You This Summer",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1656925976_1656434103_valley_of_flowers_2.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "SAUDI TOURISM AUTHORITY",
+      "sortdesc": "Take a Gastronomical Journey Across Saudi to Explore the Undiscovered Flavours of Arabia",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1656575755_saudi.jpg"
+    },
+    {
+      "id": 7,
+      "title": "CLEARTRIP",
+      "sortdesc": "This Is Why You Will End Up Travelling (& Saving) More This Month!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1745358/Image/1655097048_thumbnail_4_0.jpg"
+    },
+    {
+      "id": 8,
+      "title": "VISIT QUEENSLAND",
+      "sortdesc": "With Coral Reefs, Beaches and More, Queensland Is the Next Epic Adventure You’ve Been Waiting For!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1654847823_1654591283_hot_air_gold_coast.jpg"
+    },
+    {
+      "id": 9,
+      "title": "FIJI TOURISM",
+      "sortdesc": "Dreaming Of Beaches? Take This Quiz And Win A 4N/5D Holiday To Gorgeous Fiji",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1654253553_post_1_whatsapp_copy.jpg"
+    },
+    {
+      "id": 10,
+      "title": "VISIT ABU DHABI",
+      "sortdesc": "Planning an International Trip in 2022? Enjoy a Relaxed Vacation With This Guide to Abu Dhabi",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1654777710_manish_tulaskar_rwxwspjg9c8_unsplash.jpg"
+    },
+    {
+      "id": 11,
+      "title": "VISIT SAUDI",
+      "sortdesc": "Planning an International Trip in 2022? Enjoy a Relaxed Vacation With This Guide to Abu Dhabi",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1654767020_rezki_trianto_gsxeigxxgyw_unsplash.jpg"
+    },
+    {
+      "id": 12,
+      "title": "GOSTOPS",
+      "sortdesc": "Put Your Feet up at These Comfy goSTOPS Hostels in the Mountains on Your Road Trip to Uttarakhand",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1654070229_mukteshwar_1.jpg"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "bestPlaces": [
+   {
+     "id": 1,
+     "title": "Explore Tripotos's Destination Of The Month: Coorg",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331106_img_0316.jpg",
+     "author":"Sakshi Nahar Dhariwal"
+   },
+   {
+     "id": 2,
+     "title": "Cheapest Domestic Flights For July & August 2022",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656427359_1648717670_white_brown_minimalist_my_little_family_photo_collage_3.png",
+     "author": "Tanisha Mundra"
+   },
+   {
+     "id": 3,
+     "title": "This July,Set Out To Explore The Unexplored",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653588715_1467621115_beautiful_mountains_in.jpg",
+     "author": "Le Voyageur"
+   },
+   {
+     "id": 4,
+     "title": "This Place Turns Magical During Monsoons",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331240_1563432862_dsc_0245.jpg",
+     "author": "Adete Dahiya"
+   },
+   {
+     "id": 5,
+     "title": "Things to remember Before Planing A Monsoon Bike Trip",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331454_1560494791_motorcycle_2937056_1280.jpg",
+     "author": "Adete Dahiya"
+   },
+   {
+     "id": 6,
+     "title": "Waterfalls In Larnataka To Explore during  Monsoon",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331633_1633262833_dsc07679.jpg",
+     "author": "Mastane Musafir"
+   },
+   {
+     "id": 7,
+     "title": "Why You Should Visit Goa This Monsoon",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331979_1465388810_mussoorie_goa_634.jpg",
+     "author": "Vinnie Singh"
+   },
+   {
+     "id": 8,
+     "title": "Monsoon Destinations In India To Add To Your Buckelist",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331914_20130217_2013_02_17_2802_bundi_taragarh_fort.jpg",
+     "author": "Sarah"
+   },
+   {
+     "id": 9,
+     "title": "Places Near Delhi India To Add To Your Buckelist",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331914_20130217_2013_02_17_2802_bundi_taragarh_fort.jpg",
+     "author": "Sarah"
+   },
+   {
+     "id": 10,
+     "title": "India To Add To Your Buckelist India To Add To Your Buckelist",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332191_1502051658_img_5169.jpg",
+     "author": "Gujan Upreti"
+   },
+   {
+     "id": 11,
+     "title": "What To Expect From Jim Corbett In Off-Season (July)",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332191_1502051658_img_5169.jpg",
+     "author": "Shasank Sinha"
+   },
+   {
+     "id": 12,
+     "title": "10 Amazing Trips For 10 Long Weekends Of 2022",
+     "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1648454814_1638253252_1544522498_1544522495567.jpeg",
+     "author": "Mastane Musafir"
+   }
+  ],
+  "plantrip":[
+    {
+      "id": 1,
+      "title": "Travel Across Iceland for 21 Days In Just Rs 60,000",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1649676362_1637325065_img_20200817_220244_553.jpg",
+      "author": "Karisma Shaikh"
+    },
+    {
+      "id": 2,
+      "title": "Czech: one Of Europe's Most Affordable Countries",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653586553_1577195238_lrm_export_76214465022174_20190808_031850948.jpeg",
+      "author": "Saumiabee"
+    },
+    {
+      "id": 3,
+      "title": "8 Days, 40K INR:A Guide To Spain Is All That You Need",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653586302_1647432380_image5.jpg",
+      "author": "Visit Spain"
+    },
+    {
+      "id": 4,
+      "title": "Here's All You Need To Know About Traveling To Oman",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653585376_journaway_rundreisen_gedspqfyzte_unsplash.jpg",
+      "author": "Khyati Maloo"
+    },
+    {
+      "id": 5,
+      "title": "Travel Solo To These Se Asian Countries under 25K INR",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653585757_1648645960_5.jpg",
+      "author": "Riyanka Roy"
+    },
+    {
+      "id": 6,
+      "title": "How To Plan A Trip To Angkor Wat In Cambodia",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653584751_1592216215_1591340668_img_1987_2.jpg",
+      "author": "Kadambari Bhatt"
+    },
+    {
+      "id": 7,
+      "title": "Honeymoon Destinations For Couples Marrying In 2022",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215610/Image/1651048181_1492777960_305874488_a41e99c73e_o.jpg",
+      "author": "Prateek Dham"
+    },
+    {
+      "id": 8,
+      "title": "You Can Travel To Serbia From India Without visha",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1651046452_1545558276_erdap_2129568_1280.jpg",
+      "author": "Ayushee Chaudhary"
+    },
+    {
+      "id": 9,
+      "title": "Waterfalls In Larnataka To Explore during  Monsoon",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331633_1633262833_dsc07679.jpg",
+      "author": "Mastane Musafir"
+    },
+    {
+      "id": 10,
+      "title": "Why You Should Visit Goa This Monsoon",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331979_1465388810_mussoorie_goa_634.jpg",
+      "author": "Vinnie Singh"
+    },
+    {
+      "id": 11,
+      "title": "What To Expect From Jim Corbett In Off-Season (July)",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332191_1502051658_img_5169.jpg",
+      "author": "Shasank Sinha"
+    },
+    {
+      "id": 12,
+      "title": "10 Amazing Trips For 10 Long Weekends Of 2022",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1648454814_1638253252_1544522498_1544522495567.jpeg",
+      "author": "Mastane Musafir"
+    }
+  ]
 }
