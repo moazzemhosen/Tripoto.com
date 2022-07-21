@@ -14,7 +14,7 @@ const Carousal = ({ data, incre, decre,page }) => {
         mt={"10%"}
         position="relative"
         transform={"translate(40%, -40%)"}
-        disabled={page == 0}
+        disabled={page ===0}
         onClick={decre}
       >
         <ArrowLeftIcon />
@@ -45,7 +45,7 @@ const Carousal = ({ data, incre, decre,page }) => {
         zIndex={1}
         w={"3%"}
         mt={"10%"}
-        disabled={page == 3}
+        disabled={page === 3}
         onClick={incre}
       >
         <ArrowRightIcon />
