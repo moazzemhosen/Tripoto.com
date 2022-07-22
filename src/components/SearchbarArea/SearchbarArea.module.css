@@ -3,32 +3,17 @@
   justify-content: center;
   height: 400px;
   width: 100%;
-
-  /* border: 2px solid rgb(0, 76, 255); */
+   /* border: 2px solid rgb(0, 76, 255);  */
+   background-image: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
 }
 
-.inputdiv {
-  position: absolute;
-  width: 50%;
-  height: 80%;
-  margin: auto;
-  align-items: center;
-  /* border: 1px solid red; */
-}
+
 .inputarea {
   /* border: 1px solid red; */
 
   background-color: white;
   border-radius: 5px;
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
-/* .imagediv {
-  position: absolute;
-  height: 80%;
-  width: 100%;
-} */
-.imagediv > img {
-  height: 100%;
-  width: 100%;
-}
+

@@ -1,9 +1,11 @@
+
 import React, { useEffect, useState } from "react";
 import Carousal from "../Carousal/Carousal";
 import axios from "axios";
 import { Heading } from "@chakra-ui/react";
+import BookingCarousal from "../Carousal/BookingCarousal";
 
-const Partners = () => {
+const TravelLearn = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(0);
   console.log(data.length);
@@ -21,7 +23,7 @@ const Partners = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/Partnerships?_limit=4&_page=${page}`)
+      .get(`http://localhost:8080/booking?_limit=3&_page=${page}`)
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);
@@ -30,11 +32,11 @@ const Partners = () => {
   return (
     <>
       <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
-        In the Spotlight: Partnerships
+        Travel and Learn with Tripoto's Mindful Retreats
       </Heading>
-      <Carousal data={data} incre={incre} decre={decre} page={page} />;
+      <BookingCarousal data={data} incre={incre} decre={decre} page={page} />;
     </>
   );
 };
 
-export default Partners;
+export default TravelLearn;

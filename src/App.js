@@ -8,9 +8,9 @@ import { LargeWithLogoLeft } from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar/> 
+      {/* <Navbar/>  */}
       <HomePage/>
-      <LargeWithLogoLeft />
+      {/* <LargeWithLogoLeft /> */}
 
     </div>
   );
