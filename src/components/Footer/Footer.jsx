@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 
 import {
   Box,
@@ -28,13 +27,6 @@ const Logo = () => {
   );
 };
 
-const ListHeader = () => {
-  return (
-    <Text fontWeight={"500"} fontSize={"lg"} mb={2}>
-      {/* {children} */}
-    </Text>
-  );
-};
 
 export const LargeWithLogoLeft = () => {
   return (

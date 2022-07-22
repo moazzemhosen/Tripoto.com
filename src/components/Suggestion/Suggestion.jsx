@@ -1,4 +1,7 @@
-import  styles from"./Suggestion.module.css";
+import FunGoa from "./FunGoa";
+import GoaTourism from "./GoaTourism";
+import Planning from "./Planning";
+import  styles from "./Suggestion.module.css";
 const Suggestion = () => {
   return (
     <div>
@@ -59,6 +62,9 @@ const Suggestion = () => {
           and find all you need to know to discover India's favourite beach
           town!
         </p>
+        <GoaTourism />
+        <Planning />
+        <FunGoa/>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@
   width: 100%;
   padding-left: 100px;
 }
-.head p{
+.head >p{
     font-size: 15px;
     height: auto;
     width: 100%;
@@ -20,7 +20,7 @@
         padding-left: 100px;
         padding-right: 100px;
 }
- .btn  button{
+ .btn >button{
     margin-top: 10px;
     height: 40px;
     width: 220px;
