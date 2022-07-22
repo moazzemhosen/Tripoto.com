@@ -7,6 +7,8 @@ import MiniCard from '../components/card/MiniCard';
 import Partners from '../components/HomePage/Partners';
 import SearchbarArea from '../components/SearchbarArea/SearchbarArea'
 import TravelLearn from '../components/HomePage/TravelLearn';
+import { Box } from '@chakra-ui/react';
+import PlanTrip from '../components/HomePage/PlanTrip';
 
 const HomePage = () => {
   
