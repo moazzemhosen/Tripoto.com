@@ -1,0 +1,19 @@
+.maindiv {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+   /* border: 2px solid rgb(0, 76, 255);  */
+   background-image: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
+}
+
+
+.inputarea {
+  /* border: 1px solid red; */
+
+  background-color: white;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+}
+

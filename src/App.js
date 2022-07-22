@@ -1,12 +1,18 @@
+
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import HomePage from './pages/HomePage';
 import { LargeWithLogoLeft } from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/> 
+      <HomePage/>
       <LargeWithLogoLeft />
+     
+
     </div>
   );
 }
