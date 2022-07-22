@@ -1,10 +1,9 @@
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Heading } from "@chakra-ui/react";
-import BookingCarousal from "../Carousal/BookingCarousal";
+import Carousal from "../Carousal/Carousal";
 
-const TravelLearn = () => {
+const FunGoa = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(0);
   console.log(data.length);
@@ -22,7 +21,7 @@ const TravelLearn = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/booking?_limit=3&_page=${page}`)
+      .get(`http://localhost:8080/Goa?_limit=4&_page=${page}`)
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);
@@ -31,11 +30,12 @@ const TravelLearn = () => {
   return (
     <>
       <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
-        Travel and Learn with Tripoto's Mindful Retreats
+        Find Best Places to Visit in India in July & August
       </Heading>
-      <BookingCarousal data={data} incre={incre} decre={decre} page={page} />;
+      <Carousal data={data} incre={incre} decre={decre} page={page} />;
     </>
   );
 };
 
-export default TravelLearn;
+
+export default FunGoa
