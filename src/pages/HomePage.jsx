@@ -27,6 +27,6 @@ const HomePage = () => {
       </Box>
     </div>
   );
-}
+};
 
 export default HomePage;
