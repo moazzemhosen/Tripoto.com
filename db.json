@@ -1,4 +1,3 @@
-
 {
   "minicard": [
     {
@@ -348,11 +347,103 @@
       "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
     }
   ],
+  "bookbudget": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567683210_north_east_web.jpg",
+      "sort": "North East India Tour Packages",
+      "location": "Northeast India",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567063251_kashmir_app.jpg",
+      "sort": "Kashmir Packages",
+      "location": "Kashmir",
+      "price": "₹ 28500",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567083461_dubai_app.jpg",
+      "sort": "Dubai Tour Packages",
+      "location": "Dubai",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567494998_andaman_app.jpg",
+      "sort": "Andaman Packages",
+      "location": "Andaman",
+      "price": "₹ 18,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/454712/Image/1578895208_web_maldives.jpg",
+      "sort": "Maldives Holiday Packages",
+      "location": "Maldives ",
+      "price": "₹ 70,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 6,
+      "img": "",
+      "sort": "",
+      "location": "",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 7,
+      "img": "",
+      "sort": "",
+      "location": "",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    }
+  ],
+  "nexttrip": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216481_rajasthan.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216560_kerala.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216649_andaman.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732339_1_10.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732387_3_7.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732417_2_10.jpg"
+    },
+    {
+      "id": 7,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732456_dubai.jpg"
+    },
+    {
+      "id": 8,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732480_4_4.jpg"
+    }
+  ],
   "workshop": [
     {
       "id": 1,
       "img": "",
-      "sort": "How To Be A Smart Solo Traveller And Manage Your Expenses Like A Pro | Rashi Choudhary",
+      "sort": "How To Be A Smart Solo Traveller And Manage Your Expenses Like A Pro | Rashi Choudhary |Moazzem",
       "location": "",
       "price": "₹ 1,000",
       "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
@@ -396,6 +487,38 @@
       "location": "",
       "price": "₹ 1,000",
       "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
+    }
+  ],
+  "travelvlog":[
+    {
+      "id": 1,
+      "title": "Best Weekend Getaways From Mumbai Under 250 Kms",
+      "img": "https://image.mux.com/65Mxwlku9ue7VTvDW8F72z1U5VIOiEaz/thumbnail.jpg?width=600&height=600&time=2.0",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 2,
+      "title": "Narendra Bhawan - An Unconventional Palace Hotel In Bikaner",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/gen/1789711/Image/1634027797_thumbnail.jpg",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 3,
+      "title": "5 Beautiful Places In Delhi That Are Seriously Underrated",
+      "img": "https://image.mux.com/iFVXAVPcgtz02Zcmt2ExiBVFZbYw7iMhN/thumbnail.jpg?width=600&height=600&time=3.01",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 4,
+      "title": "5-Day Jaipur Itinerary To See The City Of Maharajas",
+      "img": "https://image.mux.com/VZNhkabs2mLwRfjO6j600Q7OmfLxm5VmV/thumbnail.jpg?width=600&height=600&time=2.0",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 5,
+      "title": "10 Best Budget Hotels In India",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/gen/1789711/Image/1634027829_thumbnail.jpg",
+      "author": "Namita Mittal"
     }
   ],
   "Goa": [
@@ -614,4 +737,3 @@
     }
   ]
 }
-
