@@ -1,12 +1,11 @@
-<<<<<<< Updated upstream
-=======
+
+
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
   Flex,
   Image,
-  Input,
   Menu,
   MenuButton,
   MenuItem,
@@ -86,10 +85,9 @@ const Navbar = () => {
           </Box>
         </Flex>
       </Box>
-      ;
     </Flex>
   );
 };
 
 export default Navbar;
->>>>>>> Stashed changes
+

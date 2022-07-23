@@ -1,16 +1,12 @@
-//import { LargeWithLogoLeft } from "./components/Footer/Footer";
-//import Navbar from "./components/Navbar/Navbar";
 
-import Bottom from "./components/Suggestion/Bottom";
-//import Suggestion from "./components/Suggestion/Suggestion";
+import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
-      <LargeWithLogoLeft />
-      <Suggestion /> */}
-      <Bottom />
+
     </div>
   );
 }

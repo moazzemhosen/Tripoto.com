@@ -1,12 +1,15 @@
-import "./Suggestion.css";
+import FunGoa from "./FunGoa";
+import GoaTourism from "./GoaTourism";
+import Planning from "./Planning";
+import  styles from "./Suggestion.module.css";
 const Suggestion = () => {
   return (
     <div>
-      <div className="head">
+      <div className={styles.head}>
         <p> Goa Tourism & Travel Guide</p>
         <b>Goa Tourism and Travel Guide</b>
       </div>
-      <div className="para">
+      <div className={styles.para}>
         <p>
           Famous for its beaches, Goa is the smallest state in India in terms of
           area, the fourth smallest state in terms of the population yet a huge
@@ -41,24 +44,27 @@ const Suggestion = () => {
           Goa.
         </p>
       </div>
-      <div className="btn">
+          <div className={styles.btn}>
         <button>Get Customised Packages</button>
       </div>
-      <div className="btns">
+          <div className={styles.btns}>
         <button>Overview</button>
         <button>Trips</button>
         <button>Places</button>
         <button>Hotels</button>
       </div>
-      <div className="head2">
+      <div className={styles.head2}>
         <h1>All You Need To Know About Goa Tourism</h1>
       </div>
-      <div className="para">
+      <div className={styles.para}>
         <p>
           Read real accounts of travellers in Goa, upcoming events, latest news,
           and find all you need to know to discover India's favourite beach
           town!
         </p>
+        <GoaTourism />
+        <Planning />
+        <FunGoa/>
       </div>
     </div>
   );

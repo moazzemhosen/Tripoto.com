@@ -1,0 +1,49 @@
+*{
+    background-color:white;
+}
+.head{
+  font-size: 35px;
+  height: auto;
+  width: 100%;
+  padding-left: 100px;
+}
+.head >p{
+    font-size: 15px;
+    height: auto;
+    width: 100%;
+    padding-left: 10px;
+}
+.para{
+    font-size: 16.5px;
+    height: auto;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+}
+ .btn >button{
+    margin-top: 10px;
+    height: 40px;
+    width: 220px;
+    margin-left: 100px;
+    border: none;
+    background-color: #2f9bdb;
+    color:white;
+    border-radius: 5px;
+}
+.btns> button{
+    margin-top: 25px;
+        height: 40px;
+        width: 70px;
+        margin-left: 100px;
+      /* border: 1px  solid red; */
+    gap:50px;
+}
+.head2 {
+    font-size: 30px;
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    margin-top: 20px;
+    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+}
