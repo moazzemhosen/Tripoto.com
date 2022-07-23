@@ -23,7 +23,6 @@ const Bottom = () => {
       </div>
       <div className="para2">
         <b>For Mid-range Travellers: INR 1000 to INR 3000 a day</b>
-
         <div className="bullet">
           <ul>
             <li>
@@ -159,5 +158,4 @@ const Bottom = () => {
     </div>
   );
 };
-
 export default Bottom;
