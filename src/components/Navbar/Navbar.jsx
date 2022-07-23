@@ -11,6 +11,7 @@ import {
   MenuItem,
   MenuList,
 } from "@chakra-ui/react";
+import { Link, useNavigate } from "react-router-dom";
 import React from "react";
 
 const Navbar = () => {
@@ -79,9 +80,11 @@ const Navbar = () => {
           </Menu>
 
           <Box>
-            <Button bg="#2f9bdb" color="white.500" h="85%" w="100%">
-              Sign In
-            </Button>
+            <Link to="/SignUp">
+              <Button bg="#2f9bdb" color="white.500" h="85%" w="100%">
+                Sign In
+              </Button>
+            </Link>
           </Box>
         </Flex>
       </Box>

@@ -22,7 +22,9 @@ const CkeckOutHotels = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/besthotels?_limit=4&_page=${page}`)
+      .get(
+        `https://the-hindu-server.herokuapp.com/besthotels?_limit=4&_page=${page}`
+      )
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);
@@ -30,7 +32,7 @@ const CkeckOutHotels = () => {
   }, [page]);
   return (
     <>
-      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"}>
+      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
         Check Out Best Hotels and Properties for Every Type of Traveller
       </Heading>
       <Carousal data={data} incre={incre} decre={decre} page={page} />;

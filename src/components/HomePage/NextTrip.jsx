@@ -21,7 +21,9 @@ const NextTrip = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/nexttrip?_limit=4&_page=${page}`)
+      .get(
+        `https://the-hindu-server.herokuapp.com/nexttrip?_limit=4&_page=${page}`
+      )
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);

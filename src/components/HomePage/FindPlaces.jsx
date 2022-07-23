@@ -21,7 +21,9 @@ const FindPlaces = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/bestPlaces?_limit=4&_page=${page}`)
+      .get(
+        `https://the-hindu-server.herokuapp.com/bestPlaces?_limit=4&_page=${page}`
+      )
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);

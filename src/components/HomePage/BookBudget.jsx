@@ -22,7 +22,9 @@ const BookBudget = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/bookbudget?_limit=3&_page=${page}`)
+      .get(
+        `https://the-hindu-server.herokuapp.com/bookbudget?_limit=3&_page=${page}`
+      )
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);
