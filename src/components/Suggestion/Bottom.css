@@ -1,0 +1,32 @@
+.para2{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.bullet{
+    padding-left: 40px;
+}
+
+.head2 {
+    font-size: 30px;
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.para3 {
+    font-size: 16.5px;
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.para4 {
+    font-size: 16.5px;
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
