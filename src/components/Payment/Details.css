@@ -1,0 +1,55 @@
+.imagetagindetailspage {
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.topdivindetailspage {
+    display: flex;
+    width: fit-content;
+}
+.textafterimageflex {
+    margin-left: 20px;
+    font-weight: 600;
+}
+.logomindsetretretreats {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.mindfullretreatstxt {
+    text-align: left;
+    margin-top:12px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.mindfullretreatsdiv {
+    display: flex;
+}
+.detailsfirstdiv {
+    text-align: left;
+    width: fit-content;
+}
+.detailsprovideddiv {
+    height: fit-content;
+    width: 500px;
+    margin-left: 100px;
+    display: flex;
+    width: fit-content;
+    text-align: left;
+}
+.detailsseconddiv {
+    margin-left: 100px;
+}
+.pricedetailsrighthandsidediv {
+    height: fit-content;
+    position: relative;
+    float: right;
+    border: 1px solid rgb(173, 173, 173);
+    margin-right: 100px;
+    width: 350px;
+    text-align: left;
+    border-radius: 5px;
+}
