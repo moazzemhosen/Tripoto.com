@@ -10,6 +10,7 @@ import {
   MenuList,
 } from "@chakra-ui/react";
 import React from "react";
+import Signin from "../../pages/LoginSignin/Signin";
 
 const Navbar = () => {
   return (
@@ -77,9 +78,18 @@ const Navbar = () => {
           </Menu>
 
           <Box>
+<<<<<<< Updated upstream
             <Button bg="#2f9bdb" color="white.500" h="85%" w="100%">
               Sign In
             </Button>
+=======
+            <Signin></Signin>
+            {/* <Link to="/SignUp">
+              <Button bg="#2f9bdb" color="white.500" h="85%" w="100%">
+                Sign In
+              </Button>
+            </Link> */}
+>>>>>>> Stashed changes
           </Box>
         </Flex>
       </Box>
