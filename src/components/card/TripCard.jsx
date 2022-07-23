@@ -7,7 +7,7 @@ const TripCard = (props) => {
     <Box>
       <Grid gridTemplateRows={"300px"} h={"100%"}>
         <Box h={"70%"}>
-          <Image h={"100%"} w={"100%"} src={img} borderRadius={"8px"} />
+          <Image  h={"100%"} w={"100%"} src={img} borderRadius={"8px"} />
           <Box fontWeight={"bold"} textAlign={"left"}>
             <Text>{title}</Text>
           </Box>
