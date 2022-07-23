@@ -1,10 +1,9 @@
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Heading } from "@chakra-ui/react";
-import BookingCarousal from "../Carousal/BookingCarousal";
+import ImageCarousal from "../Carousal/ImageCarousal";
 
-const BookBudget = () => {
+const NextTrip = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(0);
   console.log(data.length);
@@ -22,7 +21,7 @@ const BookBudget = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/bookbudget?_limit=3&_page=${page}`)
+      .get(`http://localhost:8080/nexttrip?_limit=4&_page=${page}`)
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);
@@ -31,12 +30,11 @@ const BookBudget = () => {
   return (
     <>
       <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
-        Book Budget Tour Packages Curated For You
+        Plan Your Next Trip Using Tripoto's Complete Destination Guides
       </Heading>
-      <BookingCarousal data={data} incre={incre} decre={decre} page={page} />;
+      <ImageCarousal data={data} incre={incre} decre={decre} page={page} />;
     </>
   );
 };
 
-
-export default BookBudget;
+export default NextTrip;

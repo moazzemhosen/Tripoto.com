@@ -4,7 +4,7 @@ import axios from "axios";
 import { Heading } from "@chakra-ui/react";
 import BookingCarousal from "../Carousal/BookingCarousal";
 
-const BookBudget = () => {
+const Workshops = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(0);
   console.log(data.length);
@@ -22,7 +22,7 @@ const BookBudget = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/bookbudget?_limit=3&_page=${page}`)
+      .get(`http://localhost:8080/workshop?_limit=3&_page=${page}`)
       .then((res) => {
         setData(res.data);
         //  console.log(res.data);
@@ -31,12 +31,11 @@ const BookBudget = () => {
   return (
     <>
       <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
-        Book Budget Tour Packages Curated For You
+        Attend Online Experiences: Tripoto's Exclusive Online Workshops
       </Heading>
       <BookingCarousal data={data} incre={incre} decre={decre} page={page} />;
     </>
   );
 };
 
-
-export default BookBudget;
+export default Workshops;
