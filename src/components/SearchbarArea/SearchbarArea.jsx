@@ -15,10 +15,10 @@ const SearchbarArea = () => {
   return (
     <div className={styles.maindiv}>
       <Box marginTop={"10%"}>
-        <Heading color={"white"}>
+        <Heading color={"white"} >
           India's Largest Community of Travellers
         </Heading>
-        <Stack className={styles.inputarea}>
+        <Stack className={styles.inputarea} m={"5%"}>
           <InputGroup>
             <InputLeftElement
               pointerEvents="none"

@@ -3,7 +3,7 @@ import { Box, Button, Flex, Grid, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 const BookingCard = (props) => {
-  const { img,sort,location,price,logo } = props.data;
+  const { img,sort,location,price,logo,limit } = props.data;
   return (
     <Box>
       <Grid gridTemplateRows={"420px"} h={"100%"}>
@@ -31,7 +31,7 @@ const BookingCard = (props) => {
               borderRadius={"full"}
             >
               <Text color={"white"} textAlign={"center"}>
-                3D-2N
+                {limit || "4D-3N"}
               </Text>
             </Box>
           </Flex>

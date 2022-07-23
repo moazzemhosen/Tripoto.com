@@ -9,13 +9,18 @@ import SearchbarArea from "../components/SearchbarArea/SearchbarArea";
 import TravelLearn from "../components/HomePage/TravelLearn";
 import { Box } from '@chakra-ui/react';
 import PlanTrip from '../components/HomePage/PlanTrip';
+import BookBudget from '../components/HomePage/BookBudget';
+import Workshops from '../components/HomePage/Workshops';
+import Travelvlog from '../components/HomePage/Travelvlog';
+import NextTrip from '../components/HomePage/NextTrip';
+import Spotlight from "../components/HomePage/Spotlight";
 
 const HomePage = () => {
   
   return (
     <div>
       <SearchbarArea />
-      <Box w={"80%"} m={"auto"} border={"1px solid red"}>
+      <Box w={"80%"} m={"auto"} >
         <MiniCard />
         <hr />
         <Partners />
@@ -23,7 +28,12 @@ const HomePage = () => {
         <FindPlaces />
         <PlanTrip />
         <CkeckOutHotels />
-        <TravelLearn/>
+        <TravelLearn />
+        <Workshops/>
+        <BookBudget />
+        <Spotlight/>
+        <NextTrip/>
+        <Travelvlog/>
       </Box>
     </div>
   );
