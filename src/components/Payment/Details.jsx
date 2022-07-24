@@ -29,16 +29,26 @@ import {
   CheckCircleIcon,
   InfoOutlineIcon,
   EditIcon,
+  CopyIcon,
+  AttachmentIcon,
+  PlusSquareIcon,
+  LinkIcon,
+  CalendarIcon,
 } from "@chakra-ui/icons";
 import React from "react";
 import "./Details.css";
+import { useNavigate } from "react-router-dom";
 const Details = () => {
+  const navigate = useNavigate();
   let storedFullName = JSON.parse(localStorage.getItem("fullname"));
   let storedEmail = JSON.parse(localStorage.getItem("email"));
   let storedNumber = JSON.parse(localStorage.getItem("number"));
   let departureCity = JSON.parse(localStorage.getItem("departure"));
   let storedDate = JSON.parse(localStorage.getItem("date"));
   let storedCheckedItems = JSON.parse(localStorage.getItem("checkeditems"));
+  const handleClickCard = () => {
+    navigate("/cardpayment");
+  };
   return (
     <div className="detailsmaindiv">
       <div className="topdivindetailspage">
@@ -167,13 +177,17 @@ const Details = () => {
           </Square>
         </Flex>
         <br />
-        <Popover closeOnBlur="false">
+        <Popover autoFocus={true} closeOnBlur={false}>
           <PopoverTrigger>
             <Button colorScheme="blue" w="94%" margin="10px">
               Proceed to the pay 15,000 <ArrowForwardIcon></ArrowForwardIcon>
             </Button>
           </PopoverTrigger>
-          <PopoverContent marginRight="600px" marginBottom="300px">
+          <PopoverContent
+            position="relative"
+            autoFocus={true}
+            marginRight="600px"
+          >
             <PopoverHeader backgroundColor="#2f9bdb">
               <Box>
                 <Heading color="white" size="sm" fontWeight="600">
@@ -256,10 +270,141 @@ const Details = () => {
             <Text marginLeft="10px" color="grey">
               CARDS, UPI & MORE
             </Text>
-            <Box>
-              <Flex>
+            <br />
+            <Box width="94%" margin="10px" border="1px solid grey">
+              <Flex borderBottom="1px solid grey" height="50px">
                 <Square>
-                    
+                  <CopyIcon
+                    color="blue.500"
+                    marginLeft="5px"
+                    height="20px"
+                    width="20px"
+                  ></CopyIcon>
+                </Square>
+                <Square display="block">
+                  <Text
+                    fontWeight="500"
+                    marginLeft="10px"
+                    onClick={handleClickCard}
+                  >
+                    Card
+                  </Text>
+                  <Text fontSize="16px" color="grey" marginLeft="10px">
+                    Visa,MasterCard,Rupay & More
+                  </Text>
+                </Square>
+              </Flex>
+              <Flex borderBottom="1px solid grey" height="50px">
+                <Square>
+                  <AttachmentIcon
+                    color="blue.500"
+                    marginLeft="5px"
+                    height="20px"
+                    width="20px"
+                  ></AttachmentIcon>
+                </Square>
+                <Square display="block">
+                  <Text fontWeight="500" marginLeft="10px">
+                    UPI/QR
+                  </Text>
+                  <Square marginLeft="10px">
+                    <img
+                      height="15px"
+                      width="15px"
+                      src="https://cdn.razorpay.com/app/googlepay.svg"
+                      alt="image not available"
+                    />
+                    <Square />
+                    <Square marginLeft="10px">
+                      <img
+                        height="15px"
+                        width="15px"
+                        src="https://cdn.razorpay.com/checkout/phonepe.png"
+                        alt="image not available"
+                      />
+                    </Square>
+                    <Square marginLeft="10px">
+                      <img
+                        height="15px"
+                        width="15px"
+                        src="https://cdn.razorpay.com/app/paytm.svg"
+                        alt="image not available"
+                      />
+                    </Square>
+                    <Text marginLeft="10px"> & More</Text>
+                  </Square>
+                </Square>
+              </Flex>
+              <Flex borderBottom="1px solid grey" height="50px">
+                <Square>
+                  <LinkIcon
+                    color="blue.500"
+                    marginLeft="5px"
+                    height="20px"
+                    width="20px"
+                  ></LinkIcon>
+                </Square>
+                <Square display="block">
+                  <Text fontWeight="500" marginLeft="10px">
+                    Netbanking
+                  </Text>
+                  <Text fontSize="16px" color="grey" marginLeft="10px">
+                    All Indian banks
+                  </Text>
+                </Square>
+              </Flex>
+              <Flex borderBottom="1px solid grey" height="50px">
+                <Square>
+                  <PlusSquareIcon
+                    color="blue.500"
+                    marginLeft="5px"
+                    height="20px"
+                    width="20px"
+                  ></PlusSquareIcon>
+                </Square>
+                <Square display="block">
+                  <Text fontWeight="500" marginLeft="10px">
+                    Wallet
+                  </Text>
+                  <Text fontSize="16px" color="grey" marginLeft="10px">
+                    PhonePe & More
+                  </Text>
+                </Square>
+              </Flex>
+              <Flex borderBottom="1px solid grey" height="50px">
+                <Square>
+                  <CalendarIcon
+                    color="blue.500"
+                    marginLeft="5px"
+                    height="20px"
+                    width="20px"
+                  ></CalendarIcon>
+                </Square>
+                <Square display="block">
+                  <Text fontWeight="500" marginLeft="10px">
+                    EMI
+                  </Text>
+                  <Text fontSize="16px" color="grey" marginLeft="10px">
+                    Debit/Credit cards and EarlySalary
+                  </Text>
+                </Square>
+              </Flex>
+              <Flex height="50px">
+                <Square>
+                  <CalendarIcon
+                    color="blue.500"
+                    marginLeft="5px"
+                    height="20px"
+                    width="20px"
+                  ></CalendarIcon>
+                </Square>
+                <Square display="block">
+                  <Text fontWeight="500" marginLeft="10px">
+                    Pay Later
+                  </Text>
+                  <Text fontSize="16px" color="grey" marginLeft="10px">
+                    ICICI Bank PayLater
+                  </Text>
                 </Square>
               </Flex>
             </Box>
