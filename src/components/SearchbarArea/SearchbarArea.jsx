@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useCallback } from "react";
 import {
   InputGroup,
   InputLeftElement,
@@ -10,8 +10,32 @@ import {
 } from "@chakra-ui/react";
 import { Search2Icon } from "@chakra-ui/icons";
 import styles from "./SearchbarArea.module.css";
+import SearchResult from "./SearchResult";
 
 const SearchbarArea = () => {
+  const [search, setSearch] = useState([]);
+
+  const debounce = (func) => {
+    let timer;
+    return function (...args) {
+      const context = this;
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(() => {
+        timer = null;
+        func.apply(context, args);
+      }, 500);
+    };
+  };
+
+  const handleChange = (event) => {
+    const { value } = event.target;
+    fetch(`http://localhost:8080/search/search?q=${value}`)
+      .then((res) => res.json())
+      .then((json) => setSearch(json.data.items));
+  };
+
+  const optimisedVersion = useCallback(debounce(handleChange), []);
+
   return (
     <div className={styles.maindiv}>
       <Box marginTop={"10%"}>
@@ -26,9 +50,21 @@ const SearchbarArea = () => {
               fontSize="1.2em"
               children=""
             />
-            <Input placeholder="Search for itineraries, destinations, hotels or activites" />
+            <Input
+              name={"search"}
+              placeholder={"Enter Something..."}
+              className={"search"}
+              onChange={optimisedVersion}
+            />
             <InputRightElement children={<Search2Icon color="green.500" />} />
           </InputGroup>
+          {search?.length > 0 && (
+            <div style={{border:"1px solid red",height:"100px",overflow:"scroll"}}>
+              {search?.map((el, i) => (
+                <div key={i}><SearchResult data={el.name} /></div>
+              ))}
+            </div>
+          )}
         </Stack>
       </Box>
     </div>

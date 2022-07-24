@@ -1,85 +1,69 @@
-import React, { useState } from "react";
-import Home from "../../pages/HomePage";
-import "./Sign.css"
-
-import { Alert } from "react-bootstrap";
-
-function Login() {
-  const [emaillog, setEmaillog] = useState(" ");
-  const [passwordlog, setPasswordlog] = useState(" ");
-
-  const [flag, setFlag] = useState(false);
-
-  const [home, setHome] = useState(true);
-
-  function handleLogin(e) {
-    e.preventDefault();
-    let pass = localStorage
-      .getItem("sanskarPassword")
-      .replace(/"/g, "");
-    let mail = localStorage.getItem("sanskarEmail").replace(/"/g, "");
-    
-
-    if (!emaillog || !passwordlog) {
-      setFlag(true);
-      console.log("EMPTY");
-    } else if (passwordlog !== pass || emaillog !== mail) {
-      setFlag(true);
-    } else {
-      setHome(!home);
-      setFlag(false);
-    }
-  }
-
+import {
+  Flex,
+  Box,
+  FormControl,
+  FormLabel,
+  Input,
+  Checkbox,
+  Stack,
+  Link,
+  Button,
+  Heading,
+  useColorModeValue,
+} from "@chakra-ui/react";
+//  import { Link } from "react-router-dom";
+const Login=()=> {
   return (
-    
-    <div>
-      {home ? (
-        <form onSubmit={handleLogin}>
-          <h3>Sign In</h3>
-          <div className="form-group">
-            <label></label>
-            <input style={{width:"30%",marginLeft:"500px"}}
-              type="email"
-              className="form-control"
-              placeholder="Email address"
-              onChange={(event) => setEmaillog(event.target.value)}
-            />
-          </div>
-
-          <div className="form-group">
-            <label></label>
-            <input style={{width:"30%",marginLeft:"500px"}}
-              type="password"
-              className="form-control"
-              placeholder="Enter password"
-              onChange={(event) => setPasswordlog(event.target.value)}
-            />
-          </div>
-
-          <p style={{marginRight:"22%" ,marginTop:"2%"}} >    <input className="check"  type="checkbox" /> Remember Me</p>
-        
-        
-          <a className="a" style={{marginRight:"36%"}}  href="Signup" >Forgot password? </a>
-
-          <button type="submit" style={{marginRight:"8%",width:"200px",height:"45px",marginTop:"15px",backgroundColor:"rgb(242,118,105)",color:"white",border:"none",borderRadius:"10px"}}   className="butt-s btn btn-primary btn-lg btn-block "> 
-            Login
-          </button>
-          
-
-     
-
-          {flag && (
-            <Alert color="primary" variant="warning">
-              Fill correct Info else keep trying.
-            </Alert>
-          )}
-        </form>
-      ) : (
-        <Home />
-      )}
-    </div>
+    <Flex
+      minH={"100vh"}
+      align={"center"}
+      justify={"center"}
+      bg={useColorModeValue("gray.50", "gray.800")}
+    >
+      <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
+        <Stack align={"center"}>
+          <Heading fontSize={"4xl"}>Sign in to your account</Heading>
+        </Stack>
+        <Box
+          rounded={"lg"}
+          bg={useColorModeValue("white", "gray.700")}
+          boxShadow={"lg"}
+          p={8}
+        >
+          <Stack spacing={4}>
+            <FormControl id="email">
+              <FormLabel>Email address</FormLabel>
+              <Input type="email" />
+            </FormControl>
+            <FormControl id="password">
+              <FormLabel>Password</FormLabel>
+              <Input type="password" />
+            </FormControl>
+            <Stack spacing={10}>
+              <Stack
+                direction={{ base: "column", sm: "row" }}
+                align={"start"}
+                justify={"space-between"}
+              >
+                <Checkbox>Remember me</Checkbox>
+                <Link color={"blue.400"}>Forgot password?</Link>
+              </Stack>
+              
+                <Button
+                  bg={"blue.400"}
+                  color={"white"}
+                  _hover={{
+                    bg: "blue.500",
+                  }}
+                >
+                  Login
+                </Button>
+              
+            </Stack>
+          </Stack>
+        </Box>
+      </Stack>
+    </Flex>
   );
-};
-
+}
 export default Login;

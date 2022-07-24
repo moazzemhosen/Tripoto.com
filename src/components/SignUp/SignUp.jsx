@@ -1,140 +1,104 @@
-import React, { useState } from "react";
-//  import "./Sign.css"
- import { Alert } from "react-bootstrap";
+import {
+  Flex,
+  Box,
+  FormControl,
+  FormLabel,
+  Input,
+  InputGroup,
+  HStack,
+  InputRightElement,
+  Stack,
+  Button,
+  Heading,
+  Text,
+  useColorModeValue,
+  // Link
+} from "@chakra-ui/react";
+import { useState } from "react";
+import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
+ import { Link } from "react-router-dom";
 
-// import { Alert } from "react-bootstrap";
-import Login from "./Login";
+const SignUp=()=> {
+  const [showPassword, setShowPassword] = useState(false);
 
-function Signup() {
-  
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [phone, setPhone] = useState("");
-  
-
-  const [flag, setFlag] = useState(false);
-  const [login, setLogin] = useState(true);
-  
-
-
-  function handleFormSubmit(e) {
-    e.preventDefault();
-
-    if (!name || !email || !password || !phone ) {
-      setFlag(true);
-    } else {
-      setFlag(false);
-      localStorage.setItem("sanskarEmail", JSON.stringify(email));
-      localStorage.setItem(
-        "sanskarPassword",
-        JSON.stringify(password)
-      );
-      console.log("Saved in Local Storage");
-
-      setLogin(!login);
-    }
-  }
-
-  function handleClick() {
-    setLogin(!login);
-  }
-
- 
-  
-
- 
-    
-   
   return (
-  
-    <>
-
-   <div>
-          {" "}
-          {login ? (
-            <form onSubmit={handleFormSubmit}>
-              
-              
-              
-              <h2 style={{textAlign:"center"}}>Create an account</h2>
-
-              <div className="form-group">
-                <label></label>
-                <input style={{width:"30%",marginLeft:"500px"}}
-                  type="email"
-                  className="form-control"
-                  placeholder="Email address"
-                  onChange={(event) => setEmail(event.target.value)}
-                />
-              </div>
-
-              <div className="form-group">
-                <label></label>
-                <input style={{width:"30%",marginLeft:"500px"}}
-                  type="text"
-                  className="form-control"
-                  placeholder=" Full Name"
-                  name="name"
-                  onChange={(event) => setName(event.target.value)}
-                />
-              </div>
-
-              <div className="form-group">
-                <label></label>
-                <input style={{width:"30%",marginLeft:"500px"}}
-                  type="Phone"
-                  className="form-control"
-                  placeholder="Enter contact no"
-                  onChange={(event) => setPhone(event.target.value)}
-                />
-              </div>
-
-          
-
-              <div className="form-group">
-                <label></label>
-                <input style={{width:"30%",marginLeft:"500px"}}
-                  type="password"
-                  className="form-control"
-                  placeholder="Enter password"
-                  onChange={(event) => setPassword(event.target.value)}
-                />
-              </div>
-
-          
-        {/* <p>    <input className="check" type="checkbox" /> Keep me signed in</p> */}
-        
-
-        <h6 style={{marginLeft:"10px"}}>By signing up, you agree to Tripoto's
-         .</h6>
-         <h6 style={{marginLeft:"10px"}}><a href="https://www.tripoto.com/terms" > Terms and Conditions</a> </h6>
-        
-        
-              
-              <button  type="submit"  style={{marginLeft:"0px",width:"200px",height:"45px",marginTop:"15px",backgroundColor:"rgb(242,118,105)",color:"white",border:"none",borderRadius:"10px"}}   className="butt-s btn btn-primary btn-lg btn-block ">
-              Continue
-              </button>
-              <p onClick={handleClick} className="forgot-password text-right">
-              Already Registerd ?{" "}Login 
-                
-              </p>
-            
-              {flag && (
-                <Alert color="primary" variant="danger">
-                  
-                  I got it you are in hurry! But every Field is important!
-                </Alert>
-                
-              )}
-            </form>
-          ) : (
-            <Login />
-          )}
-        </div>
-    
-    </>
+    <Flex
+      minH={"100vh"}
+      align={"center"}
+      justify={"center"}
+      bg={useColorModeValue("gray.50", "gray.800")}
+    >
+      <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
+        <Stack align={"center"}>
+          <Heading fontSize={"4xl"} textAlign={"center"}>
+            Sign up
+          </Heading>
+        </Stack>
+        <Box
+          rounded={"lg"}
+          bg={useColorModeValue("white", "gray.700")}
+          boxShadow={"lg"}
+          p={8}
+        >
+          <Stack spacing={4}>
+            <HStack>
+              <Box>
+                <FormControl id="firstName" isRequired>
+                  <FormLabel>First Name</FormLabel>
+                  <Input type="text" />
+                </FormControl>
+              </Box>
+              <Box>
+                <FormControl id="lastName">
+                  <FormLabel>Last Name</FormLabel>
+                  <Input type="text" />
+                </FormControl>
+              </Box>
+            </HStack>
+            <FormControl id="email" isRequired>
+              <FormLabel>Email address</FormLabel>
+              <Input type="email" />
+            </FormControl>
+            <FormControl id="password" isRequired>
+              <FormLabel>Password</FormLabel>
+              <InputGroup>
+                <Input type={showPassword ? "text" : "password"} />
+                <InputRightElement h={"full"}>
+                  <Button
+                    variant={"ghost"}
+                    onClick={() =>
+                      setShowPassword((showPassword) => !showPassword)
+                    }
+                  >
+                    {showPassword ? <ViewIcon /> : <ViewOffIcon />}
+                  </Button>
+                </InputRightElement>
+              </InputGroup>
+            </FormControl>
+            <Stack spacing={10} pt={2}>
+              <Link to={"/login"}>
+                <Button
+                  loadingText="Submitting"
+                  size="lg"
+                  bg={"blue.400"}
+                  color={"white"}
+                  _hover={{
+                    bg: "blue.500",
+                  }}
+                >
+                  Sign up
+                </Button>
+              </Link>
+            </Stack>
+            <Stack pt={6}>
+              <Text align={"center"}>
+                Already a user? <Link to={"/login"}>Login</Link>
+              </Text>
+            </Stack>
+          </Stack>
+        </Box>
+      </Stack>
+    </Flex>
   );
 }
-
-export default Signup;
+export default SignUp;
