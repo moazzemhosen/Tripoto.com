@@ -4,6 +4,9 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { LargeWithLogoLeft } from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import Cardpayment from "../components/Payment/Cardpayment";
+import Details from "../components/Payment/Details";
+import Otp from "../components/Payment/Otp";
 import Payment from "../components/Payment/payment";
 import Suggestion from "../components/Suggestion/Suggestion";
 import HomePage from "./HomePage";
@@ -22,7 +25,6 @@ const MainRoutes = () => {
         <Route path="/otp" element={<Otp />}></Route>
         <Route path="/details" element={<Details />}></Route>
         <Route path="/cardpayment" element={<Cardpayment />}></Route>
-        <Route path="/lastpage" element={<Lastpage />}></Route>
       </Routes>
       <LargeWithLogoLeft />
     </>

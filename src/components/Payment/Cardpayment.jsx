@@ -22,7 +22,8 @@ const Cardpayment = () => {
   const navigate = useNavigate();
   let storedNumber = JSON.parse(localStorage.getItem("number"));
   const handleClickcardpayment = () => {
-    navigate("/lastpage")
+    alert("Payment Successful")
+    navigate("/")
   }
   return (
     <div>
