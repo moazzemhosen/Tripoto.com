@@ -31,7 +31,7 @@ const Carousal = ({ data, incre, decre,page }) => {
             <div>
               <GridItem>
                 <Card key={item.id} data={item} />
-              </GridItem>
+              </GridItem> 
             </div>
           );
         })}

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 {
   "minicard": [
@@ -615,3 +616,771 @@
   ]
 }
 
+=======
+{
+  "minicard": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192273_bb.png"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192344_dd.png"
+    }
+  ],
+  "Partnerships": [
+    {
+      "id": 1,
+      "title": "GOSTOPS",
+      "sortdesc": "Trek through Himalayan Forests & Waterfalls under Rs 8,000 with goEXPERIENCES by goSTOPS!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1658236943_1200px_har_ki_dun.jpg"
+    },
+    {
+      "id": 2,
+      "title": "SINGAPORE TOURISM BOARD",
+      "sortdesc": "Visit These 7 Chic Bars in Singapore if You’re in the Mood to Live up the Night!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1653562686_275721311_336154091889496_2451172917242741439_n.jpg"
+    },
+    {
+      "id": 3,
+      "title": "MG",
+      "sortdesc": "Unravel the Secrets of Northeast India With Chum and Rohan in ‘Uncharted Trails’",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1657611052_rohan_chum2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "SAUDI TOURISM AUTHORITY",
+      "sortdesc": "A 7-Day Backpacker’s Itinerary for Exploring Saudi in Under Rs 35,000",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1656576649_1653662762_image7.jpg"
+    }
+  ],
+  "bestPlaces": [
+    {
+      "id": 1,
+      "title": "Explore Tripotos's Destination Of The Month: Coorg",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331106_img_0316.jpg",
+      "author": "Sakshi Nahar Dhariwal"
+    },
+    {
+      "id": 2,
+      "title": "Cheapest Domestic Flights For July & August 2022",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656427359_1648717670_white_brown_minimalist_my_little_family_photo_collage_3.png",
+      "author": "Tanisha Mundra"
+    },
+    {
+      "id": 3,
+      "title": "This July,Set Out To Explore The Unexplotitle",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653588715_1467621115_beautiful_mountains_in.jpg",
+      "author": "Le Voyageur"
+    },
+    {
+      "id": 4,
+      "title": "This Place Turns Magical During Monsoons",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331240_1563432862_dsc_0245.jpg",
+      "author": "Adete Dahiya"
+    },
+    {
+      "id": 5,
+      "title": "Things to remember Before Planing A Monsoon Bike Trip",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331454_1560494791_motorcycle_2937056_1280.jpg",
+      "author": "Adete Dahiya"
+    },
+    {
+      "id": 6,
+      "title": "Waterfalls In Larnataka To Explore during  Monsoon",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331633_1633262833_dsc07679.jpg",
+      "author": "Mastane Musafir"
+    },
+    {
+      "id": 7,
+      "title": "Why You Should Visit Goa This Monsoon",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331979_1465388810_mussoorie_goa_634.jpg",
+      "author": "Vinnie Singh"
+    },
+    {
+      "id": 8,
+      "title": "Monsoon Destinations In India To Add To Your Buckelist",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331914_20130217_2013_02_17_2802_bundi_taragarh_fort.jpg",
+      "author": "Sarah"
+    },
+    {
+      "id": 9,
+      "title": "Places Near Delhi India To Add To Your Buckelist",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331914_20130217_2013_02_17_2802_bundi_taragarh_fort.jpg",
+      "author": "Sarah"
+    },
+    {
+      "id": 10,
+      "title": "India To Add To Your Buckelist India To Add To Your Buckelist",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332191_1502051658_img_5169.jpg",
+      "author": "Gujan Upreti"
+    },
+    {
+      "id": 11,
+      "title": "What To Expect From Jim Corbett In Off-Season (July)",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332191_1502051658_img_5169.jpg",
+      "author": "Shasank Sinha"
+    },
+    {
+      "id": 12,
+      "title": "10 Amazing Trips For 10 Long Weekends Of 2022",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1648454814_1638253252_1544522498_1544522495567.jpeg",
+      "author": "Mastane Musafir"
+    }
+  ],
+  "plantrip": [
+    {
+      "id": 1,
+      "title": "Travel Across Iceland for 21 Days In Just Rs 60,000",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1649676362_1637325065_img_20200817_220244_553.jpg",
+      "author": "Karisma Shaikh"
+    },
+    {
+      "id": 2,
+      "title": "Czech: one Of Europe's Most Affordable Countries",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653586553_1577195238_lrm_export_76214465022174_20190808_031850948.jpeg",
+      "author": "Saumiabee"
+    },
+    {
+      "id": 3,
+      "title": "8 Days, 40K INR:A Guide To Spain Is All That You Need",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653586302_1647432380_image5.jpg",
+      "author": "Visit Spain"
+    },
+    {
+      "id": 4,
+      "title": "Here's All You Need To Know About Traveling To Oman",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653585376_journaway_rundreisen_gedspqfyzte_unsplash.jpg",
+      "author": "Khyati Maloo"
+    },
+    {
+      "id": 5,
+      "title": "Travel Solo To These Se Asian Countries under 25K INR",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653585757_1648645960_5.jpg",
+      "author": "Riyanka Roy"
+    },
+    {
+      "id": 6,
+      "title": "How To Plan A Trip To Angkor Wat In Cambodia",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653584751_1592216215_1591340668_img_1987_2.jpg",
+      "author": "Kadambari Bhatt"
+    },
+    {
+      "id": 7,
+      "title": "Honeymoon Destinations For Couples Marrying In 2022",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215610/Image/1651048181_1492777960_305874488_a41e99c73e_o.jpg",
+      "author": "Prateek Dham"
+    },
+    {
+      "id": 8,
+      "title": "You Can Travel To Serbia From India Without visha",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1651046452_1545558276_erdap_2129568_1280.jpg",
+      "author": "Ayushee Chaudhary"
+    },
+    {
+      "id": 9,
+      "title": "Waterfalls In Larnataka To Explore during  Monsoon",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331633_1633262833_dsc07679.jpg",
+      "author": "Mastane Musafir"
+    },
+    {
+      "id": 10,
+      "title": "Why You Should Visit Goa This Monsoon",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331979_1465388810_mussoorie_goa_634.jpg",
+      "author": "Vinnie Singh"
+    },
+    {
+      "id": 11,
+      "title": "What To Expect From Jim Corbett In Off-Season (July)",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332191_1502051658_img_5169.jpg",
+      "author": "Shasank Sinha"
+    },
+    {
+      "id": 12,
+      "title": "10 Amazing Trips For 10 Long Weekends Of 2022",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1648454814_1638253252_1544522498_1544522495567.jpeg",
+      "author": "Mastane Musafir"
+    }
+  ],
+  "besthotels": [
+    {
+      "id": 1,
+      "title": "LUXURY STAYS",
+      "sortdesc": " Best Coorg Resorts That You Can't Skip",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/gen/2215463/Image/1656332418_1654396464_coorg.avif",
+      "author": "Sakshi Nahar Dhariwal"
+    },
+    {
+      "id": 2,
+      "title": "UNIQUE STAYS",
+      "sortdesc": "Properties Across India Perfect for the Monsoons",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332366_1629195674_photo_1506461883276_594a12b11cf3.jpeg",
+      "author": "Kadambari Bhatte(curlitravelmess)"
+    },
+    {
+      "id": 3,
+      "title": "BUDGET STAYS",
+      "sortdesc": "Unlimate List Of Government Guest Houses Under 3K INR",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332499_1656096038_manalsu_2.jpg",
+      "author": "Arko Banerjee"
+    },
+    {
+      "id": 4,
+      "title": "LUXURY STAYS",
+      "sortdesc": "Coorg Wilderness Resort:The Best Of Nature & Luxury",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332604_1632455357_img_20210824_064013.jpg",
+      "author": "Riyanka Roy"
+    },
+    {
+      "id": 5,
+      "title": "LUXURY STAYS",
+      "sortdesc": "Coorg Wilderness Resort:The Best Of Nature & Luxury",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332604_1632455357_img_20210824_064013.jpg",
+      "author": "Riyanka Roy"
+    },
+    {
+      "id": 6,
+      "title": "LUXURY STAYS",
+      "sortdesc": "10 Place Hotels In India Which Are Not In Rajastan!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332895_1655125606_1655123371_1654797038_cq5dam_web_756_756.jpeg",
+      "author": "Aparajita"
+    },
+    {
+      "id": 7,
+      "title": "LUXURY STAYS",
+      "sortdesc": "This Property In Kolkata Overlooks The Victoria Memorial!",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332866_1633518714_267103469.jpg",
+      "author": "Kadambari Bhattechariya"
+    },
+    {
+      "id": 8,
+      "title": "HOMESTAYS",
+      "sortdesc": "Experience the Rains in Maharashtra At These Beautiful Homestays",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656333075_1655949685_1628847164_1627983039_696b9be9_d0ff_4240_a0fa_2e8e89f15daa.jpg",
+      "author": "Kadambari Bhattechariya"
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1642496887_image_cover.jpg",
+      "sort": "Hike to a Natural Pool and Go Bushcrafting at this Luxury Camp | Moksham Himalayan Campsite, Pangot",
+      "location": "Nainital",
+      "price": "₹ 7199",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657734830_image_cover_a.jpg",
+      "sort": "Explore One of Asia's Spookiest Spots While Unwinding Amidst Nature | Seegreen Lodges, Mussoorie",
+      "location": "Mussoorie",
+      "price": "₹ 7500",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1654439464_revised_hsc.jpg",
+      "sort": "Hike to a Mountaintop & Swim in a Waterfall as You Experience Mukteshwar’s Magical Monsoon | Hisalu",
+      "location": "Mukteshwar",
+      "price": "₹ 7150",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657204838_omya_img_cover_b.jpg",
+      "sort": "Take a Dip in a River and Ride on a Toy Train Amidst Mountains | Omya Forest Camps, Bir",
+      "location": "Bir",
+      "price": "₹ 8599",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1653394847_nw_c2.jpg",
+      "sort": "Stargaze & Pluck Your Own Herbs For Tea at This Kumaoni Retreat | Once Upon a Forest, Hariyal",
+      "location": "Nainital",
+      "price": "₹ 5199",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1640323403_image_cover_b.jpg",
+      "sort": "Learn Yoga While Unwinding Amidst Nature & Hike to a Gorgeous Waterfall | Nature Care Village",
+      "location": "Rishikesh",
+      "price": "₹ 4799",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 7,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1654504108_ce_c1.jpg",
+      "sort": "Trek to Triund and Stay At The Residence Of Kangra’s Maharaja | Clouds End Villa, Dharamshala",
+      "location": "Dharamshala",
+      "price": "₹ 13,750",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 8,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1653391344_ln_c1.jpg",
+      "sort": "Explore an Artist’s Estate & Stay in a Kathkuni Home Hidden in Manali's Forests | NORTH",
+      "location": "Manali",
+      "price": "₹ 9850",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 9,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1645595596_image_cover_b_2.jpg",
+      "sort": "Embark on an Adventure with Night Safari & Cycle Safari as You Spot Tigers | Mandaal Corbett",
+      "location": "Ramnagar",
+      "price": "₹ 10,000",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 10,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1638778652_image_cover_b.jpg",
+      "sort": "",
+      "location": "Rajasthan",
+      "price": "₹ 3799",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 11,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1640323403_image_cover_b.jpg",
+      "sort": "Learn Yoga While Unwinding Amidst Nature & Hike to a Gorgeous Waterfall | Nature Care Village",
+      "location": "Rishikesh",
+      "price": "₹ 4799",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 12,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1654439464_revised_hsc.jpg",
+      "sort": "Hike to a Mountaintop & Swim in a Waterfall as You Experience Mukteshwar’s Magical Monsoon | Hisalu",
+      "location": "Mukteshwar",
+      "price": "₹ 7150",
+      "limit":"3D-2N",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    }
+  ],
+  "bookbudget": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567683210_north_east_web.jpg",
+      "sort": "North East India Tour Packages",
+      "location": "Northeast India",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567063251_kashmir_app.jpg",
+      "sort": "Kashmir Packages",
+      "location": "Kashmir",
+      "price": "₹ 28500",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567083461_dubai_app.jpg",
+      "sort": "Dubai Tour Packages",
+      "location": "Dubai",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1524784/Image/1567494998_andaman_app.jpg",
+      "sort": "Andaman Packages",
+      "location": "Andaman",
+      "price": "₹ 18,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/454712/Image/1578895208_web_maldives.jpg",
+      "sort": "Maldives Holiday Packages",
+      "location": "Maldives ",
+      "price": "₹ 70,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 6,
+      "img": "",
+      "sort": "",
+      "location": "",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    },
+    {
+      "id": 7,
+      "img": "",
+      "sort": "",
+      "location": "",
+      "price": "₹ 29000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"
+    }
+  ],
+  "nexttrip": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216481_rajasthan.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216560_kerala.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1756031/Image/1599216649_andaman.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732339_1_10.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732387_3_7.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732417_2_10.jpg"
+    },
+    {
+      "id": 7,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732456_dubai.jpg"
+    },
+    {
+      "id": 8,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1339961/Image/1613732480_4_4.jpg"
+    }
+  ],
+  "workshop": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1656062118_copy_of_workshop_covers_15.png",
+      "sort": "How To Be A Smart Solo Traveller And Manage Your Expenses Like A Pro | Rashi Choudhary |Moazzem",
+      "location": "",
+      "price": "₹ 1,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1656394504_copy_of_workshop_covers_16.png",
+      "sort": "How To Become A Successful Digital Nomad | Monika Guwalani",
+      "location": "",
+      "price": "₹ 1,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1656913430_copy_of_workshop_covers_19.png",
+      "sort": "How To Travel For Longer Without Putting A Dent In Your Pocket | Aastha & Devanshi",
+      "location": "",
+      "price": "₹ 1,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1656652248_copy_of_workshop_covers_18.png",
+      "sort": "How to Travel In Exchange For Work | Raghu Raahi",
+      "location": "",
+      "price": "₹ 1,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2163002/Image/1656573237_copy_of_workshop_covers_17.png",
+      "sort": "How To Take Your Vlogging To The Next Level | Shashvat Joshi",
+      "location": "",
+      "price": "₹ 1,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://cdn1.tripoto.com/media/filter/nxxl/img/2163002/Image/1656573324_lead_form_24.jpg",
+      "sort": "The workshop will help you take your vlogging style to the next level, give you a list of must-know",
+      "location": "",
+      "price": "₹ 1,000",
+      "logo": "https://cdn1.tripoto.com/media/filter/mss/img/1999587/UserPhoto/1594379927_dp2.jpg"
+    }
+  ],
+  "travelvlog":[
+    {
+      "id": 1,
+      "title": "Best Weekend Getaways From Mumbai Under 250 Kms",
+      "img": "https://image.mux.com/65Mxwlku9ue7VTvDW8F72z1U5VIOiEaz/thumbnail.jpg?width=600&height=600&time=2.0",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 2,
+      "title": "Narendra Bhawan - An Unconventional Palace Hotel In Bikaner",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/gen/1789711/Image/1634027797_thumbnail.jpg",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 3,
+      "title": "5 Beautiful Places In Delhi That Are Seriously Underrated",
+      "img": "https://image.mux.com/iFVXAVPcgtz02Zcmt2ExiBVFZbYw7iMhN/thumbnail.jpg?width=600&height=600&time=3.01",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 4,
+      "title": "5-Day Jaipur Itinerary To See The City Of Maharajas",
+      "img": "https://image.mux.com/VZNhkabs2mLwRfjO6j600Q7OmfLxm5VmV/thumbnail.jpg?width=600&height=600&time=2.0",
+      "author": "Namita Mittal"
+    },
+    {
+      "id": 5,
+      "title": "10 Best Budget Hotels In India",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/gen/1789711/Image/1634027829_thumbnail.jpg",
+      "author": "Namita Mittal"
+    }
+  ],
+  "Goa": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1632485500_maxresdefault.jpg",
+      "sortdesc": "Watch & Plan A Trip Of A Lifetime"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654871505_1649680710_india_6123621_1280.jpg",
+      "sortdesc": "38 Best Beaches In Goa"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654871505_1649680710_india_6123621_1280.jpg",
+      "sortdesc": "South Goa Or North Goa"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654871505_1649680710_india_6123621_1280.jpg",
+      "sortdesc": "Must Visit Places in Goa"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654871524_1654756915_sumit_sourav_esrtxpd9q1c_unsplash.jpg",
+      "sortdesc": "List Of beaches in South Goa"
+    },
+    {
+      "id": 6,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643441340_1540132260_img_3148.jpg",
+      "sortdesc": "25 Things To Do In South Goa"
+    },
+    {
+      "id": 7,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643442132_1610798592_whatsapp_image_2021_01_16_at_16_01_59_1.jpeg",
+      "sortdesc": "4 Reasons To Visit In Goa"
+    },
+    {
+      "id": 8,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643442252_1619425319_img_20210306_083100_1_min_1_e1617842359194.jpg",
+      "sortdesc": "Chorao Island:Hidden Gem In Goa"
+    },
+    {
+      "id": 8,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643442562_6815500977_3d1109583c_z.jpg",
+      "sortdesc": "Goa is Much More Than The Beaches"
+    },
+    {
+      "id": 10,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643442599_1486733036_dsc_0153.jpg",
+      "sortdesc": "Everything You Need To KNow About South Goa"
+    },
+    {
+      "id": 11,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643442697_1619638453_14.jpg",
+      "sortdesc": "Offbeat Places In North Goa You Must Explore"
+    }
+  ],
+  "GoaPlan": [
+    {
+      "id": 1,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1632071260_1625457592_285221875.jpg",
+      "title": "THE ONLY GUIDE YOU NEED",
+      "sortdesc": "The Ultimate Guide Of Gos Hotels."
+    },
+    {
+      "id": 2,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654942483_1654761476_f4a3c9fa_f234_4217_85b5_653e81e2e6ac.jpeg",
+      "title": "LUXURY BEACHES RESORT",
+      "sortdesc": "25 Luxurious Beach Resorts In GOA."
+    },
+    {
+      "id": 3,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1632071139_1631432510_86738e65_950f_4ef5_813e_e1d3f085e905.jpg",
+      "title": "LUXURY VILLA",
+      "sortdesc": "10 Luxury Villas In Goa With A Pool"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1642228383_1456823637_56805744.jpg",
+      "title": "BUDGET STAY",
+      "sortdesc": "10 Affordable Hotels In Goa."
+    },
+    {
+      "id": 5,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654871292_1650971317_273067764.jpg",
+      "title": "BEST RESORTS",
+      "sortdesc": "When In Goa Stay At These 25 Resorts!"
+    },
+    {
+      "id": 6,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1632071260_1625457592_285221875.jpg",
+      "title": "BUDGET HOTELS",
+      "sortdesc": "Hotels In Goa Under Rs.2050!"
+    },
+    {
+      "id": 7,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1642236702_1502867071_57743838.jpg",
+      "title": "PROPERTY FOR ALL",
+      "sortdesc": "13 Best Homestays,Resorts And Hotels"
+    },
+    {
+      "id": 8,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643451971_1454916724_anjuna.jpg",
+      "title": "HOME STAYS",
+      "sortdesc": "15 Homestays In Goa Under Rs 1,500."
+    },
+    {
+      "id": 9,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1632070879_1611373304_20201126_123918.jpg",
+      "title": "HERITAGE",
+      "sortdesc": "3 Heritage Properties In Goa!"
+    },
+    {
+      "id": 10,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1632071021_1630579067_210184318.jpg",
+      "title": "PET-FRIENDLY",
+      "sortdesc": "Pet Friendly Hotels In goa."
+    },
+    {
+      "id": 11,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643453864_1579365548_1579365543207_585938.jpeg",
+      "title": "HOME STAY",
+      "sortdesc": "Casa Susegad-Homestay  In goa"
+    },
+    {
+      "id": 12,
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/1789711/Image/1632080112_1612342926_67087062_2879200065484376_7535689325363593216_o.jpg",
+      "title": "ROMANTIC STAY",
+      "sortdesc": "Private Villa With THe Perfect 'Bali' Vibe!"
+    }
+  ],
+  "FunGoa": [
+    {
+      "id": "1",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643454022_1455271897_fort_aguada_goa.jpg",
+      "sortdesc": "Things To Do In Goa (7D/6N)"
+    },
+    {
+      "id": "2",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643454640_1561104994_img_20171026_wa0047.jpg",
+      "sortdesc": "4 Days In Goa: What All You Can Do?"
+    },
+    {
+      "id": "3",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643454667_1546604969_dsc_0616.jpg",
+      "sortdesc": "Best Of Goa in 4 Days!"
+    },
+    {
+      "id": "4",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643457183_0f58fb7af0c73e1a375967e2f85163f4_2.jpg",
+      "sortdesc": "A 5 Day Traveel Guide To Goa, India"
+    },
+    {
+      "id": "5",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643457183_0f58fb7af0c73e1a375967e2f85163f4_2.jpg",
+      "sortdesc": "A 5 Day Traveel Guide To Goa, India"
+    },
+    {
+      "id": "6",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643457192_1506828491_img_20170921_175613_hdr.jpg",
+      "sortdesc": "North Goa RoadTrip -3 Days Ltinerary"
+    },
+    {
+      "id": "7",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643457201_1488602966_img_1068.jpg",
+      "sortdesc": "7 Days Goa: The Ultimate Guidee"
+    },
+    {
+      "id": "8",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643457220_1513253145_423137_10200154397882625_1350605618_n.jpg",
+      "sortdesc": "Places To Visit In Goa 3/4 Days"
+    }
+  ],
+  "WhenGoa": [
+    {
+      "id": "1",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643527271_1543915604_28740805071_ee0f23f489_b.jpg",
+      "sortdesc": "Haunted Places In Goa"
+    },
+    {
+      "id": "2",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643527808_1619285462_img_20201122_wa0004_ed.jpg",
+      "sortdesc": "8 Things To Do In South Goa"
+    },
+    {
+      "id": "3",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643527359_1552154197_untitled_panorama1.jpg",
+      "sortdesc": "Must Have Experiences In Goa"
+    },
+    {
+      "id": "4",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643528161_1610714382_1610714364244.jpg",
+      "sortdesc": "Virgin Beaches Of Goa"
+    },
+    {
+      "id": "5",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654871418_1652534209_a0b2a4n2lt94v51bkn6oyzerbggz_1551341206_shutterstock_654264571.jpg",
+      "sortdesc": "Everything You Need To KNow About Scuba Diving In Goa"
+    },
+    {
+      "id": "6",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643527408_1481963562_1453190309_15993731325_119b28b9f8_b.jpg",
+      "sortdesc": "13 Hidden Places In Goa Which Are A Must Visit"
+    },
+    {
+      "id": "7",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643527296_1512158895_p_20170717_124913.jpg",
+      "sortdesc": " Visit This 20,000-Year Old Wonder When In Goa"
+    },
+    {
+      "id": "8",
+      "img": "https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1643527500_1511339516_flyboarding_1489419081uxj.jpg",
+      "sortdesc": "Adrenalin-Pumping Fly Boarding In Goa"
+    }
+  ],
+  "search":[
+    {
+      "title": "saudi"
+    },
+    {
+      "title": "saud"
+    },
+    {
+      "title":"sau"
+    },{
+      "title":"sa"
+    },{
+      "title":"s"
+    }
+  ]
+}
+>>>>>>> Stashed changes
