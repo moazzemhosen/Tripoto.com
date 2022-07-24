@@ -29,7 +29,7 @@ const SearchbarArea = () => {
 
   const handleChange = (event) => {
     const { value } = event.target;
-    fetch(`http://localhost:8080/search/search?q=${value}`)
+    fetch(`https://demo.dataverse.org/api/search?q=${value}`)
       .then((res) => res.json())
       .then((json) => setSearch(json.data.items));
   };

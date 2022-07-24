@@ -1,6 +1,7 @@
 import { CheckCircleIcon, StarIcon } from "@chakra-ui/icons";
 import { Box, Button, Flex, Grid, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BookingCard = (props) => {
   const { img,sort,location,price,logo,limit } = props.data;
@@ -44,9 +45,11 @@ const BookingCard = (props) => {
             </Flex>
 
             <Box>
-              <Button h={"100%"} colorScheme="teal" variant="outline">
-                Book Now
-              </Button>
+              <Link to="/payment">
+                <Button h={"100%"} colorScheme="teal" variant="outline">
+                  Book Now
+                </Button>
+              </Link>
             </Box>
           </Flex>
 

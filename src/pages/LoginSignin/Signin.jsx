@@ -77,7 +77,7 @@ const Signin = () => {
       alert("Login Successfull");
       setIsAuth(true);
       onClose();
-      navigate("../HomePage");
+      navigate("/");
     } else {
       alert("Login Failed");
     }
@@ -86,7 +86,7 @@ const Signin = () => {
     <div>
       {isAuth ? (
         
-        <div onClick={() => navigate("../HomePage")}>
+        <div onClick={() => navigate("/")}>
 
           <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
             
@@ -265,7 +265,7 @@ const Signin = () => {
                       </div>
                       <h3 className="noaccountyet">No account yet?</h3>
                       <h3 className="welcometokimayetext">
-                        Welcome to Kimaye! Help us with a few details to know
+                        Welcome to Tripoto! Help us with a few details to know
                         you better as you take the journey of enjoying our safe
                         and tasty fruits.
                       </h3>
@@ -381,30 +381,6 @@ const Signin = () => {
                       >
                         Create an Account
                       </button>
-                      {/* <Signin></Signin> */}
-                      {/* <Drawer
-                      isOpen={isOpen}
-                      placement="right"
-                      onClose={onClose}
-                      finalFocusRef={btnRef}
-                    >
-                      <DrawerOverlay />
-                      <DrawerContent>
-                        <DrawerCloseButton />
-                        <DrawerHeader>Create your account</DrawerHeader>
-
-                        <DrawerBody>
-                          <Input placeholder="Type here..." />
-                        </DrawerBody>
-
-                        <DrawerFooter>
-                          <Button variant="outline" mr={3} onClick={onClose}>
-                            Cancel
-                          </Button>
-                          <Button colorScheme="blue">Save</Button>
-                        </DrawerFooter>
-                      </DrawerContent>
-                    </Drawer> */}
                     </div>
                   </div>
                 )}
