@@ -3,9 +3,9 @@ import { Heading,Box,Text, Flex,Image } from "@chakra-ui/react";
 
 const Spotlight = () => {
     return (
-      <Box w={"95%"}   m={"auto"}>
+      <Box w={"95%"} m={"auto"}>
         <Box>
-          <Heading  fontSize={"180%"} textAlign={"left"}>
+          <Heading fontSize={["95%", "100%", "180%"]} textAlign={"left"}>
             In the Spotlight: Tripoto Creators of the Month
           </Heading>
           <Text m={"1% 0% 1% 0%"} textAlign={"left"}>
@@ -13,11 +13,14 @@ const Spotlight = () => {
             stunning photo blogs, engaging reels and videos as well as
             informative articles. Here are the most promising creators of the
             month who took us on a beautiful journey across India and the world
-            through their content.<br/> Kudos to Tripoto's best creators for May
-            2022!
+            through their content.
+            <br /> Kudos to Tripoto's best creators for May 2022!
           </Text>
         </Box>
-        <Flex justifyContent={"space-between"}>
+        <Flex
+          justifyContent={"space-between"}
+          direction={["column", "row", "row"]}
+        >
           <Box w={"30%"}>
             <Image
               borderRadius={"8px"}

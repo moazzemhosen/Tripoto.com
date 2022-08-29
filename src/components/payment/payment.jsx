@@ -14,7 +14,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
-import Details from "./Details";
+// import Details from "./Details";
 const Payment = () => {
   const btnRef = React.useRef();
   const [count, setCount] = useState(2);
@@ -61,15 +61,24 @@ const Payment = () => {
     }
   };
   return (
-    <div style={{display:"flex",justifyContent:"space-between"}}>
-      <img width={"60%"}
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        width: "90%",
+        margin: "auto",
+      }}
+    >
+      <img
+        width={"60%"}
+        margin={"auto"}
         src="https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1657734830_image_cover_a.jpg"
         alt=""
       />
       <div className="rightsidepaymentdiv">
         <Stack spacing={4}>
           <Box>
-            <FormControl>
+            <FormControl w={"80%"} m={"auto"}>
               <p className="headofpaymentform">
                 Please share your details to get a custom quote.
               </p>
@@ -87,7 +96,7 @@ const Payment = () => {
             </FormControl>
           </Box>
           <Box>
-            <FormControl>
+            <FormControl w={"80%"} m={"auto"}>
               <Input
                 isRequired
                 focusBorderColor="blue"
@@ -101,7 +110,7 @@ const Payment = () => {
             </FormControl>
           </Box>
           <Box>
-            <FormControl>
+            <FormControl w={"80%"} m={"auto"}>
               <Input
                 isRequired
                 focusBorderColor="blue"
@@ -115,7 +124,7 @@ const Payment = () => {
             </FormControl>
           </Box>
           <Box>
-            <FormControl>
+            <FormControl w={"80%"} m={"auto"}>
               <Input
                 isRequired
                 focusBorderColor="blue"
@@ -150,7 +159,7 @@ const Payment = () => {
             </Box>
           </Flex>
           <Box>
-            <FormControl>
+            <FormControl w={"80%"} m={"auto"}>
               <Input
                 isRequired
                 focusBorderColor="blue"
@@ -199,7 +208,7 @@ const Payment = () => {
             <Text className="roomtypetext">Amount :</Text>
           </Box>
           <Box flex="1">
-            <Text className="amountfetched">15000</Text>
+            <Text className="amountfetched">$15000</Text>
           </Box>
         </Flex>
         <Box>

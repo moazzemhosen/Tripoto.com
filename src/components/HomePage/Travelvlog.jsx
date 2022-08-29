@@ -31,7 +31,11 @@ const Travelvlog = () => {
   }, [page]);
   return (
     <>
-      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
+      <Heading
+        m={"3% 0% 0% 3%"}
+        fontSize={["95%", "100%", "180%"]}
+        textAlign={"left"}
+      >
         Watch Tripoto's Top Travel Vlogs of the Week
       </Heading>
       <TripCarousal data={data} incre={incre} decre={decre} page={page} />;

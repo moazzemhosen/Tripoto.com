@@ -3,7 +3,7 @@ import { Image,Box } from "@chakra-ui/react";
 
 const Animation = () => {
   return (
-    <Box h={"280px"} mt={"2%"}>
+    <Box h={"100%"} mt={"2%"}>
       <Image 
         objectFit={"contain"}
         h={"100%"}

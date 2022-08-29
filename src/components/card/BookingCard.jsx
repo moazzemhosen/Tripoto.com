@@ -7,7 +7,7 @@ const BookingCard = (props) => {
   const { img,sort,location,price,logo,limit } = props.data;
   return (
     <Box>
-      <Grid gridTemplateRows={"420px"} h={"100%"}>
+      <Grid gridTemplateRows={["420px"]} h={"100%"} >
         <Box h={"45%"}>
           <Image h={"100%"} w={"100%"} src={img} borderRadius={"8px"} />
           <Box fontWeight={"bold"} color={"rgb(53,147,145)"} textAlign={"left"}>
@@ -31,17 +31,32 @@ const BookingCard = (props) => {
               w={"20%"}
               borderRadius={"full"}
             >
-              <Text color={"white"} textAlign={"center"}>
+              <Text
+                color={"white"}
+                textAlign={"center"}
+                fontSize={["70%", "80%", "100%"]}
+              >
                 {limit || "4D-3N"}
               </Text>
             </Box>
           </Flex>
           <Flex justifyContent={"space-between"} h={"15%"}>
-            <Flex h={"100%"} w={"40%"} justifyContent={"space-between"}>
-              <Text h={"100%"} fontWeight={"bold"}>
+            <Flex
+              h={"100%"}
+              w={["70%", "70%", "70%"]}
+              justifyContent={"space-between"}
+            >
+              <Text
+                
+                h={"100%"}
+                fontWeight={"bold"}
+                fontSize={["80%", "80%", "100%"]}
+              >
                 {price}
               </Text>
-              <Text color={"gray"}>/person</Text>
+              <Text color={"gray"} fontSize={["70%", "90%", "100%"]}>
+                /person
+              </Text>
             </Flex>
 
             <Box>

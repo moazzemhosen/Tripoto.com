@@ -32,7 +32,11 @@ const BookBudget = () => {
   }, [page]);
   return (
     <>
-      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
+      <Heading
+        m={"3% 0% 0% 3%"}
+        fontSize={["95%", "100%", "180%"]}
+        textAlign={"left"}
+      >
         Book Budget Tour Packages Curated For You
       </Heading>
       <BookingCarousal data={data} incre={incre} decre={decre} page={page} />;

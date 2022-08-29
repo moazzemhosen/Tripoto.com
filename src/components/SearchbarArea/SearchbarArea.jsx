@@ -52,7 +52,7 @@ const SearchbarArea = () => {
             />
             <Input
               name={"search"}
-              placeholder={"Enter Something..."}
+              placeholder={"Search for Weekend Tour Something..."}
               className={"search"}
               onChange={optimisedVersion}
             />

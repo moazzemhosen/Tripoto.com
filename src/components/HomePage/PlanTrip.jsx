@@ -31,7 +31,11 @@ const PlanTrip = () => {
   }, [page]);
   return (
     <>
-      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
+      <Heading
+        m={"3% 0% 0% 3%"}
+        fontSize={["95%", "100%", "180%"]}
+        textAlign={"left"}
+      >
         Plan International Trips for July & August
       </Heading>
       <TripCarousal data={data} incre={incre} decre={decre} page={page} />;

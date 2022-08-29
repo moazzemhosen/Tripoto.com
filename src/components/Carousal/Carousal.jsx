@@ -14,30 +14,32 @@ const Carousal = ({ data, incre, decre,page }) => {
         mt={"10%"}
         position="relative"
         transform={"translate(40%, -40%)"}
-        disabled={page ===0}
+        disabled={page === 0}
         onClick={decre}
       >
         <ArrowLeftIcon />
       </IconButton>
       <Grid
-        templateColumns="repeat(4, 1fr)"
+        templateColumns={["repeat(1fr)", "repeat(2, 1fr)", "repeat(4, 1fr)"]}
         gap={6}
         w={"100%"}
         m={"auto"}
-        paddingTop={"1%"}
+        height={"100%"}
+        padding={"1% 0%"}
+        
       >
         {data.map((item) => {
           return (
             <div>
               <GridItem>
                 <Card key={item.id} data={item} />
-              </GridItem> 
+              </GridItem>
             </div>
           );
         })}
       </Grid>
       <IconButton
-         aria-label="right-arrow"
+        aria-label="right-arrow"
         // colorScheme="messenger"
         borderRadius="full"
         position="relative"

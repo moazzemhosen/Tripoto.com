@@ -19,7 +19,7 @@ const TripCarousal = ({ data, incre, decre, page }) => {
         <ArrowLeftIcon />
       </IconButton>
       <Grid
-        templateColumns="repeat(4, 1fr)"
+        templateColumns={["repeat( 1fr)", "repeat(2, 1fr)", "repeat(4, 1fr)"]}
         gap={6}
         w={"100%"}
         m={"auto"}

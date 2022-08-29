@@ -31,7 +31,12 @@ const NextTrip = () => {
   }, [page]);
   return (
     <>
-      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
+      <Heading
+        m={"3% 0% 0% 3%"}
+        fontSize={["95%", "100%", "180%"]}
+        
+        textAlign={"left"}
+      >
         Plan Your Next Trip Using Tripoto's Complete Destination Guides
       </Heading>
       <ImageCarousal data={data} incre={incre} decre={decre} page={page} />;

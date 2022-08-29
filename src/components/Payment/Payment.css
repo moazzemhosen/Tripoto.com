@@ -1,8 +1,8 @@
 .rightsidepaymentdiv {
-    position: relative;
-    float: right;
-    margin-right: 200px;
-    width: 350px;
+    /* position: relative; */
+    /* float: right; */
+    width: 28%;
+    margin: auto;
     border: 1px solid black;
     border-radius: 5px;
 }

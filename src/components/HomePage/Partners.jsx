@@ -31,7 +31,11 @@ const Partners = () => {
   }, [page]);
   return (
     <>
-      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
+      <Heading
+        m={"3% 0% 0% 3%"}
+        fontSize={["95%", "100%", "180%"]}
+        textAlign={"left"}
+      >
         In the Spotlight: Partnerships
       </Heading>
       <Carousal data={data} incre={incre} decre={decre} page={page} />;

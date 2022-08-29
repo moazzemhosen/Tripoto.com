@@ -32,7 +32,11 @@ const CkeckOutHotels = () => {
   }, [page]);
   return (
     <>
-      <Heading m={"3% 0% 0% 3%"} fontSize={"180%"} textAlign={"left"}>
+      <Heading
+        m={"3% 0% 0% 3%"}
+        fontSize={["95%", "100%", "180%"]}
+        textAlign={"left"}
+      >
         Check Out Best Hotels and Properties for Every Type of Traveller
       </Heading>
       <Carousal data={data} incre={incre} decre={decre} page={page} />;
